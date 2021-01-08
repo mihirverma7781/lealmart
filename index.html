@@ -24,161 +24,7 @@
   <!-- form -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
   <style>
-    .site-footer
-    {
-      background-color:#26272b;
-      padding:45px 0 20px;
-      font-size:15px;
-      line-height:24px;
-      color:#737373;
-    }
-    .site-footer hr
-    {
-      border-top-color:#bbb;
-      opacity:0.5
-    }
-    .site-footer hr.small
-    {
-      margin:20px 0
-    }
-    .site-footer h6
-    {
-      color:#fff;
-      font-size:16px;
-      text-transform:uppercase;
-      margin-top:5px;
-      letter-spacing:2px
-    }
-    .site-footer a
-    {
-      color:#737373;
-    }
     
-    .footer-links
-    {
-      padding-left:0;
-      list-style:none
-    }
-    .footer-links li
-    {
-      display:block
-    }
-    .footer-links a
-    {
-      color:#737373
-    }
-    .footer-links a:active,.footer-links a:focus,.footer-links a:hover
-    {
-      color:white;
-      text-decoration:none;
-    }
-    .footer-links.inline li
-    {
-      display:inline-block
-    }
-    .site-footer .social-icons
-    {
-      text-align:right
-    }
-    .site-footer .social-icons a
-    {
-      width:40px;
-      height:40px;
-      line-height:40px;
-      margin-left:6px;
-      margin-right:0;
-      border-radius:100%;
-      background-color:#33353d
-    }
-    
-    @media (max-width:991px)
-    {
-      .site-footer [class^=col-]
-      {
-        margin-bottom:30px
-      }
-    }
-    @media (max-width:767px)
-    {
-      .site-footer
-      {
-        padding-bottom:0
-      }
-      .site-footer .copyright-text,.site-footer .social-icons
-      {
-        text-align:center
-      }
-    }
-    
-    .fa:hover {
-        opacity: 0.7;
-    }
-    
-    .fa-facebook {
-      background: #3B5998;
-      color: white;
-      padding: 5px;
-      font-size: 10px;
-      width: 30px;
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 2px;
-    }
-    
-    .fa-twitter {
-      background: #55ACEE;
-      color: white;
-       padding: 5px;
-      font-size: 10px;
-      width: 30px;
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 2px;
-    }
-    
-    .fa-linkedin {
-      background: #007bb5;
-      color: white;
-       padding: 5px;
-      font-size: 10px;
-      width: 30px;
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 2px;
-    }
-    
-    .fa-youtube {
-      background: #bb0000;
-      color: white;
-       padding: 5px;
-      font-size: 10px;
-      width: 30px;
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 2px;
-    }
-    
-    .fa-instagram {
-      background: #bc2a8d;
-      color: white;
-       padding: 5px;
-      font-size: 10px;
-      width: 30px;
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 2px;
-    }
-    
-    .fa-pinterest {
-      background: #cb2027;
-      color: white;
-       padding: 5px;
-      font-size: 10px;
-      width: 30px;
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 2px;
-    }
     .form {
       width: 100%;
     }
@@ -190,7 +36,6 @@
       margin-top: 5em;
       padding: 1em;
       text-align: center;
-
 
     }
 
@@ -266,7 +111,7 @@
   <!-- ***** Preloader End ***** -->
 
   <!-- Header -->
-  <header class="">
+  <header class="head-back">
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="index.html">
@@ -635,60 +480,60 @@
   <!--  -->
  
     <!-- Site footer -->
-            <footer class="site-footer">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-sm-12 col-md-5">
-                    <h6><img src="logo.png" width="300px"></h6>
-                    <p class="text-justify">
-                      Lealmart is the fastest growing authentic directory that takes pride in connecting buyers and sellers across
-                      India and beyond. Our online outlet provides you with an uninterrupted shopping experience with the most highly
-                      rated official brands available.
-                    </p>
-                    
-                  </div>
-                  <div class="col-xs-6 col-md-2">
-                    <h6>General Links</h6>
-                    <ul class="footer-links">
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">Free Listing</a></li>
-                      <li><a href="#">Advertise with us</a></li>
-                      <li><a href="#">Job's Careers</a></li>
-                      <li><a href="#">Site Map</a></li>
-                    </ul>
-                  </div><hr>
-                  <div class="col-xs-6 col-md-2">
-                    <h6>Get to Knows Us</h6>
-                    <ul class="footer-links">
-                      <li><a href="{{route('about_us')}}">About Us</a></li>
-                      <li><a href="#">Contact Us</a></li>
-                      <li><a href="#">Customer Care</a></li>
-                      <li><a href="#">Feedback</a></li>
-                      <li><a href="#">Complaints</a></li>
-                      <li><a href="{{route('privacy')}}">Privacy Policy</a></li>
-                    </ul>           
-                  </div>
-                  <div class="col-xs-6 col-md-2">
-                    <h6>Connect With Us</h6>
-                    <ul class="footer-links">
-                      
-                      <li><a href="{{route('about_us')}}"><i class="fa fa-facebook"></i>Facebook</a></li>
-                      <li><a href="#"><i class="fa fa-youtube"></i>Youtube</a></li>
-                      <li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
-                      <li><a href="#"><i class="fa fa-pinterest"></i>Pinterest</a></li>
-                      <li><a href="#" ><i class="fa fa-linkedin"></i>Linkedin</a></li>
-                      <li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
-                    </ul>       
-                  </div>
-                </div>
-                <hr>
-              </div>
-              <div class="container-fluid">
-                  <center><div class="copywrite">
-                    <p>Copyright © 2020 Lealmart. All rights reserved</p>
-                  </div></center>
-              </div>
-            </footer>
+    <footer class="site-footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-5 logo-footer">
+            <div class="logo-footer"><img src="logo.png" width="300px"></div>
+            <p class="text-justify">
+              Lealmart is the fastest growing authentic directory that takes pride in connecting buyers and sellers across
+              India and beyond. Our online outlet provides you with an uninterrupted shopping experience with the most highly
+              rated official brands available.
+            </p>
+            
+          </div>
+          <div class="col-xs-6 col-md-2">
+            <h6>General Links</h6>
+            <ul class="footer-links">
+              <li><a href="https://www.lealmart.com/">Home</a></li>
+              <li><a href="https://www.lealmart.com/free-listing">Free Listing</a></li>
+              <li><a href="javascript:">Advertise with us</a></li>
+              <li><a href="https://www.lealmart.com/jobs-careers">Job's Careers</a></li>
+              <li><a href="https://www.lealmart.com/public/sitemap.xml">Site Map</a></li>
+            </ul>
+          </div><hr>
+          <div class="col-xs-6 col-md-2">
+            <h6>Get to Knows Us</h6>
+            <ul class="footer-links">
+              <li><a href="https://www.lealmart.com/about-us">About Us</a></li>
+              <li><a href="https://www.lealmart.com/contact-us">Contact Us</a></li>
+              <li><a href="https://www.lealmart.com/customer-care">Customer Care</a></li>
+              <li><a href="javascript:">Feedback</a></li>
+              <li><a href="javascript:">Complaints</a></li>
+              <li><a href="https://www.lealmart.com/privacy-policy">Privacy Policy</a></li>
+            </ul>           
+          </div>
+          <div class="col-xs-6 col-md-2">
+            <h6>Connect With Us</h6>
+            <ul class="footer-links">
+              
+              <li><a href="{{route('about_us')}}"><i class="fa fa-facebook"></i>Facebook</a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i>Youtube</a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
+              <li><a href="#"><i class="fa fa-pinterest"></i>Pinterest</a></li>
+              <li><a href="#" ><i class="fa fa-linkedin"></i>Linkedin</a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
+            </ul>       
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container-fluid">
+          <center><div class="copywrite">
+            <p>Copyright © 2020 Lealmart. All rights reserved</p>
+          </div></center>
+      </div>
+    </footer>
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 

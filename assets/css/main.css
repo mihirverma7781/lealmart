@@ -165,8 +165,12 @@ header {
     -o-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
 }
+
 header .navbar {
 	padding: 25px 0px;
+	position: fixed !important;
+	background-color: #f7f7f7 !important;
+	width: 100%;
 }
 .background-header .navbar {
 	padding: 17px 0px;
@@ -1164,3 +1168,174 @@ margin: 0;
   .readmore a{
 	  color: #f7f7f7 !important;
   }
+
+  .col-xs-6{
+
+	  text-align: left;
+  }
+  .logo-footer{
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: left;
+	  align-items: flex-start;
+	  
+  }
+  .logo-footer img{
+	border: none;
+	margin-bottom: 20px;
+  }
+  .site-footer
+    {
+      background-color:#26272b;
+      padding:45px 0 20px;
+      font-size:15px;
+      line-height:24px;
+      color:#737373;
+    }
+    .site-footer hr
+    {
+      border-top-color:#bbb;
+      opacity:0.5
+    }
+    .site-footer hr.small
+    {
+      margin:20px 0
+    }
+    .site-footer h6
+    {
+      color:#fff;
+      font-size:16px;
+      text-transform:uppercase;
+      margin-top:5px;
+      letter-spacing:2px
+    }
+    .site-footer a
+    {
+      color:#737373;
+    }
+    
+    .footer-links
+    {
+      padding-left:0;
+      list-style:none
+    }
+    .footer-links li
+    {
+      display:block
+    }
+    .footer-links a
+    {
+      color:#737373
+    }
+    .footer-links a:active,.footer-links a:focus,.footer-links a:hover
+    {
+      color:white;
+      text-decoration:none;
+    }
+    .footer-links.inline li
+    {
+      display:inline-block
+    }
+    .site-footer .social-icons
+    {
+      text-align:right
+    }
+    .site-footer .social-icons a
+    {
+      width:40px;
+      height:40px;
+      line-height:40px;
+      margin-left:6px;
+      margin-right:0;
+      border-radius:100%;
+      background-color:#33353d
+    }
+    
+    @media (max-width:991px)
+    {
+      .site-footer [class^=col-]
+      {
+        margin-bottom:30px
+      }
+    }
+    @media (max-width:767px)
+    {
+      .site-footer
+      {
+        padding-bottom:0
+      }
+      .site-footer .copyright-text,.site-footer .social-icons
+      {
+        text-align:center
+      }
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+      padding: 5px;
+      font-size: 10px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+    
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+       padding: 5px;
+      font-size: 10px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+    
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+       padding: 5px;
+      font-size: 10px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+    
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+       padding: 5px;
+      font-size: 10px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+    
+    .fa-instagram {
+      background: #bc2a8d;
+      color: white;
+       padding: 5px;
+      font-size: 10px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+    
+    .fa-pinterest {
+      background: #cb2027;
+      color: white;
+       padding: 5px;
+      font-size: 10px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
